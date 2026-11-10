@@ -1,6 +1,0 @@
-.env
-data/
-bifrost-data/
-__pycache__/
-.venv/
-.pytest_cache/
