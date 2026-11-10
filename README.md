@@ -156,7 +156,7 @@ Tailwind CSS (CDN), Mermaid.js.
 
 **Services:** Bifrost by Maxim AI (LLM and MCP gateway), Tavily (live web search).
 
-All code in this repository is released under the Apache 2.0 License.
+All code in this repository is released under the Apache-2.0 License.
 
 ## License
-Apache 2.0
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
