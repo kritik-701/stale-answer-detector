@@ -1,0 +1,17 @@
+{
+  "mcp": {
+    "client_configs": [
+      {
+        "name": "stale_detector",
+        "connection_type": "http",
+        "connection_string": "http://localhost:8000/mcp",
+        "auth_type": "none",
+        "is_ping_available": true,
+        "max_protocol_version": "2025-06-18",
+        "tool_execution_timeout": "30s",
+        "tools_to_execute": ["verify_freshness", "get_freshness_report"],
+        "tools_to_auto_execute": ["verify_freshness", "get_freshness_report"]
+      }
+    ]
+  }
+}
