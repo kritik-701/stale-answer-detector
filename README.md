@@ -135,5 +135,28 @@ bifrost/mcp-client.config.json  ready-to-paste Bifrost MCP client entry
 - Verdicts are only as good as the retrieved sources and judging model; treat scores as triage.
 - The dashboard and API have no login; the `/mcp` endpoint supports an optional bearer token (`MCP_AUTH_TOKEN`). Keep the service on a private network.
 
+## Acknowledgements and sources of help
+
+**AI assistance.** This project was built with the help of Claude (Anthropic).
+Claude generated the initial code, the Bifrost MCP integration, the tests, and
+the first draft of this README. Our team "codeblooded27" chose the problem statements
+(Bifrost Contributor Track and Tavily Stale-Answer Detector), defined the
+requirements, and reviewed the code.
+
+**Documentation and references used**
+- Bifrost docs: MCP gateway and connecting to MCP servers
+  (https://docs.getbifrost.ai/mcp/connecting-to-servers) and plugins
+  (https://docs.getbifrost.ai/plugins)
+- Tavily Search API documentation (https://docs.tavily.com)
+- Model Context Protocol specification (https://modelcontextprotocol.io)
+- FastAPI, Starlette, Pydantic, httpx, and pytest documentation
+
+**Open-source libraries and tools:** FastAPI, Uvicorn, httpx, Pydantic, SQLite,
+Tailwind CSS (CDN), Mermaid.js.
+
+**Services:** Bifrost by Maxim AI (LLM and MCP gateway), Tavily (live web search).
+
+All code in this repository is released under the MIT License.
+
 ## License
 MIT
